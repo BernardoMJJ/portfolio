@@ -120,7 +120,7 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 75rem){
     .cabecalho {
         padding: 10%;
     }
@@ -133,5 +133,13 @@ body {
     }
     .cabecalho__menu {
         justify-content: center;
+    }
+}
+@media (max-width: 485px){
+    a.cabecalho__menu__link {
+        font-size: 16px;
+    }
+    h2.apresentacao__links__subtitulo {
+        text-align: center;
     }
 }
